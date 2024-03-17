@@ -32,12 +32,12 @@ print(cars)
 
 print("**************************************************")
 # Removing Array Elements
-cars = ["Ford", "Volvo", "BMW"]
+#cars = ["Ford", "Volvo", "BMW"]
 cars.pop(1)
 print(cars)
 # Delete the element that has the value "Volvo":
-cars.remove("Volvo")
-
+cars.remove("BMW")
+print(cars)
 
 # Array Methods
 # Method	Description
@@ -53,3 +53,35 @@ cars.remove("Volvo")
 # remove()	Removes the first item with the specified value
 # reverse()	Reverses the order of the list
 # sort()	    Sorts the list
+print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+
+names = ["Shashanka","Rupesh","Pandu"]
+print(names)
+names.append("Hari")
+names.append("Jyothi")
+names.append("Anitha")
+print(names)
+names.clear()
+print(names)
+print("//////////////////////////////////////")
+names = ["Shashanka","Rupesh","Pandu"]
+print(names)
+names.append("Hari")
+names.append("Jyothi")
+names.append("Anitha")
+print(names)
+print(names.copy())
+# names.count("Python")
+# names.extend("Python")
+print(names)
+print(names.index("Pandu"))
+print(names)
+#sort
+names.sort()
+print(names)
+#reverse the ArrayList
+names.reverse()
+print(names)
+names.insert(4,"Viswa")
+print(names)
+

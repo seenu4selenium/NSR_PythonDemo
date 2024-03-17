@@ -37,9 +37,10 @@ import random
 import string
 
 def generate_random_email():
-    domains = ["gmail.com", "yahoo.com", "hotmail.com", "example.com"]
-    username = ''.join(random.choices(string.ascii_lowercase + string.digits, k=random.randint(5, 10)))
+    domains = ["gmail.com", "yahoo.com", "hotmail.com", "outlook.com"]
     domain = random.choice(domains)
+    # username = ''.join(random.choices(string.ascii_lowercase + string.digits, k=random.randint(5, 10)))
+    username = ''.join(random.choices(string.ascii_lowercase+ string.digits,k=random.randint(6, 15)))
     return f"{username}@{domain}"
 
 # Generate and print 10 random email-like strings
